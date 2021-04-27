@@ -1,0 +1,267 @@
+body {
+    background-color: #f5f6fa;
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif
+}
+
+h1, h3, h4, h5, ul, body, html {
+    padding: 0;
+    margin: 0
+}
+
+.wrapper {
+    min-height: 100vh;
+    overflow: hidden
+}
+
+.wrapper .col1 {
+    float: left;
+    position: relative;
+    z-index: 999;
+    width: 17%
+}
+
+.wrapper .col2 {
+    float: left;
+    width: 83%
+}
+
+.sidebar {
+    background-color: #fff;
+    min-height: 120vh;
+}
+
+.sidebar .section-top {
+    background-color: #0b2f47;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15)
+}
+
+.sidebar .logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 24px;
+    white: 60%
+}
+
+.sidebar .user {
+    color: #fff !important;
+    padding: 16px
+}
+
+.sidebar .user a {
+    color: #fff;
+    font-size: 1.2em
+}
+
+.main {
+    margin-top: 10px
+}
+
+.main ul li {
+    margin-bottom: 4px
+}
+
+.main ul li a {
+    color: #8998ac;
+    display: block;
+    font-size: 1.1em;
+    padding: 5px 16px
+}
+
+.main ul li a i {
+    margin-right: 7px
+}
+
+.main ul li a i img {
+    margin-right: 7px;
+    color: #8998ac;
+    display: block;
+    font-size: 1.1em;
+    padding: 5px 16px
+}
+
+.main ul li a:hover {
+    background-color: #0b2f47;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15);
+    color: #fff;
+    text-decoration: none
+}
+
+.main ul li .dropdown-menu {
+    border-color: #0b2f47;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15);
+    width: 96%
+}
+
+.navbar {
+    background-color: #0b2f47
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none
+}
+
+.page {
+    padding-top: 16px;
+    padding-bottom: 16px
+}
+
+.page .breadcrumb {
+    background-color: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1)
+}
+
+.page .breadcrumb .breadcrumb-item a {
+    text-decoration: none;
+    color: #0b2f47 !important
+}
+
+.page .panel {
+    background-color: #fff;
+    border-radius: 6px;
+    border-bottom: 2px solid #0b2f47;
+    width: 100%
+}
+
+.page .panel .header {
+    border-bottom: 1px solid #e8e8e8
+}
+
+.page .panel .header h2.title {
+    display: inline-block;
+    color: #0b2f47;
+    font-size: 1.1em;
+    padding: 12px 12px
+}
+
+.page .panel .inside {
+    padding: 16px
+}
+
+.page .panel .inside .row .col-md-4 .card {
+    background-color: #fff;
+    border: 1px solid #0b2f47;
+    border-radius: 6px;
+    margin-top: 16px;
+    display: block;
+    width: 100%
+}
+
+.page .panel .inside .row .col-md-4 .card .card-header {
+    background-color: #0b2f47;
+    color: #fff;
+}
+
+.page .panel .inside .row .col-md-4 .card .card-body-1 {
+    font-size: 1.1em;
+    background-color: #fff;
+}
+
+.page .panel .inside .row .col-md-4 .card .card-body-1 .card-title {
+    font-size: 1.1em;
+}
+
+.page .panel .inside .row .col-md-4 .card .card-body-1 .card-text {
+    font-size: 0.9em;
+}
+
+.page .panel .inside .row .col-md-4 .card .card-body-2 {
+    border-top: #0b2f47 1px solid;
+    border-bottom: #0b2f47 1px solid;
+    background-color: #fff;
+    font-size: 1.1em;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.opts a {
+    cursor: pointer;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 8px 12px;
+    border: 1px solid #0b2f47;
+    color: #0b2f47
+}
+
+.opts a:hover {
+    background-color: #0b2f47;
+    color: #fff
+}
+
+.page .panel .inside .nav .nav-link {
+    border: 1px solid #103d47;
+    margin-right: 8px;
+    color: #103d47
+}
+
+.page .panel .inside .nav .nav-link:hover {
+    background-color: #0b2f47;
+    color: #fff
+}
+
+.page .panel .inside .nav .nav-link:unhover {
+    background-color: #0b2f47;
+    color: #fff
+}
+
+.page .panel .inside .nav .nav-link .fas {
+    margin-right: 4px
+}
+
+.progress {
+    border: 1px solid #0b2f47 !important;
+    background-color: #fff !important;
+    height: 42px !important
+}
+
+.progress .progress-bar {
+    background-color: #0b2f47 !important;
+}
+
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+
+.mtop16 {
+    margin-top: 16px
+}
+
+.mtop9 {
+    margin-top: 9px
+}
+
+.btn-success {
+    background-color: #0b2f47 !important;
+    border: 0 !important;
+    width: 100%;
+    outline: none;
+    box-shadow: none
+}
+
+.required {
+    color: red;
+}
+
+.error {
+    margin-top: 3px;
+    background-color: #6D1A1A;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.warning {
+    margin-top: 3px;
+    background-color: #E89B38;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.opts :hover {
+    border-radius: 5px;
+    background-color: #0b2f47;
+    color: #fff;
+}
