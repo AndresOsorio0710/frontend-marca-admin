@@ -3,6 +3,7 @@ import {useDispatch} from "react-redux";
 import {useHistory} from "react-router-dom";
 import {getProviderActionId, patchProviderAction, postProviderAction} from "../../../redux/providerDucks";
 import ProviderList from "./providerList";
+import ProviderForm from "./providerForm";
 
 export const ProviderContent = () => {
 
@@ -44,7 +45,7 @@ export const ProviderContent = () => {
         <div className="container-fluid">
             <div className="row">
                 <div className="col-md-4">
-                    Add
+                    <ProviderForm data={data} isEdit={isEdit} handleAddOrEdit={handleAddOrEdit}/>
                 </div>
                 <div className="col-md-8">
                     <ProviderList handleEdit={handleEdit}/>

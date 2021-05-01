@@ -3,9 +3,9 @@ import {BrowserRouter as Router, Route, Link} from "react-router-dom";
 import logo from "./../../images/logoMarca.png";
 import CellarMaster from "./cellar/cellarMaster";
 import ProviderMaster from "./provider/providerMaster";
-//import SectionMaster from "./section/sectionMaster";
-//import CollectionMaster from "./collection/collectionMaster";
-//import ProductMaster from "./product/productMaster";
+import SectionMaster from "./section/sectionMaster";
+import CollectionMaster from "./collection/collectionMaster";
+import ProductMaster from "./product/productMaster";
 
 
 function AdminMaster() {
@@ -73,10 +73,9 @@ function AdminMaster() {
                 <div className="col2">
                     <Route exact path={'/admin/cellar/'} component={CellarMaster}/>
                     <Route exact path={'/admin/provider/'} component={ProviderMaster}/>
-                    {
-                        /*<Route exact path={'/admin/section/'} component={SectionMaster}/>
-                        <Route exact path={'/admin/collection/'} component={CollectionMaster}/>
-                        <Route path={'/admin/product/'} component={ProductMaster}/>*/}
+                    <Route exact path={'/admin/section/'} component={SectionMaster}/>
+                    <Route exact path={'/admin/collection/'} component={CollectionMaster}/>
+                    <Route path={'/admin/product/'} component={ProductMaster}/>
                 </div>
             </div>
         </Router>
